@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {},
+        },
+      };
+    </script>
+  </head>
+  <body class="px-4 m-auto container">
+    <input
+      class="border border-black rounded-md"
+      type="text"
+      name=""
+      id="username"
+    />
+    <br />
+    <div id="image"></div>
+    <br />
+    <button id="submit" class="border border-black rounded-md">
+      Process Data
+    </button>
+    <script src="./main.js"></script>
+  </body>
+</html>
